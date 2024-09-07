@@ -1,0 +1,34 @@
+:root{
+    --color:grey;
+    --seccolor:pink;
+    --defpad:34px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color:var(--color);
+
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding:var(--defpad);
+    border: solid var(--seccolor);
+}
+
+ul li:first-child{
+    --color:yellow;
+    background-color: var(--color);
+}
+
+.contanier{
+    background-color: var(--seccolor);
+}
